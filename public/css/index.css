@@ -1,0 +1,416 @@
+*{ margin: 0; padding: 0;}
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 576px) {
+    img.kid_store{
+        display: none;
+    }
+    .d-flex{
+        margin-left: -20px;
+    }
+    .header .btn-group, .content_first .group, div.group_second.menu_ft, .line hr, .line .title_md, .group_one, .group_third, .content_third .group_second ul, .content_second .group_second ul{
+        display: none;
+    }
+    div.group_card, .frame_sm, .brand {
+        display:none;
+    }
+}
+
+button.btn.red{
+  color: red;
+  text-transform: uppercase;
+}
+
+.card .card-body{
+    border: none!important;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.card .card-body ul {
+    list-style: none;
+    margin-top: -10px;   
+    cursor: pointer;
+    line-height: 30px;
+
+}
+
+.card {
+    border: none!important;
+}
+
+.card div#headingThree.card-header,.card div#headingTwo.card-header,.card div#headingOne.card-header {
+    padding: 0!important;
+}
+
+div#headingOne, div#headingTwo, div#headingThree {
+    background: white;
+    
+}
+
+div#accordionExample {
+    position: absolute;
+    top: 53px;
+    left: 31px;
+    width: 260px!important;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px!important;
+}
+
+.description p {margin-bottom: 0px;}
+
+.group_second.menu_ft {
+    display: inline-block;
+    padding: 15px 146px 1px 146px;
+    border: 2px solid #524a4a8a;
+    margin-left: 328px;
+    margin-top: 55px;
+    border-radius: 80px;
+    margin-bottom: 35px;
+}
+
+.footer{
+    background-image: url("./fancybox/ft.png");
+    height: 375px;
+}
+
+.descript {
+    margin-left: 75px;
+    color: white;
+}
+
+i.fa.icon {
+    font-size: 31px;
+    border: 1px solid gray;
+    background-color: #58a9f7;
+    width: 65px;
+    height: 64px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+hr.bh-text {display: block;margin-top: 36px;}
+
+p.text_brand {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: -5px;
+    position: absolute;
+    left: 40%;
+    font-weight: bold;
+    background: white;
+}
+
+.brand {
+    width: 100%;
+    position: relative;
+}
+
+.brand hr {
+    width: 96%;
+    margin-left: 23px;
+    margin-bottom: 25px;
+}
+
+.group_fifth img {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.group_fifth {
+    display: block;
+    width: 100%;
+    height: 365px;
+    position: relative;
+}
+
+img.frame2 {position: absolute;top: 0px;right: -14px;}
+
+img.img-small {
+    position: absolute;
+    top: 48px;
+    left: 41px;
+}
+
+.frame_sm {
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+}
+
+.crossbar {
+    width: 100%;
+    height: 2px;
+    background: #ff6839;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.crossbar::after {content: "XEM TẤT CẢ";display: block;text-align: end;padding: 0 10px;position: absolute;top: -12px;right: 28px;background: white;color: #ff6839;}
+
+.group_forth {
+    width: 100%;
+    margin-left: 22px;
+    height: 435px;
+}
+
+.text {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+
+.block_tt {
+    width: 282px;
+    height: 180px;
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid #8080802e;
+    float: left;
+    margin-right: 25px;
+}
+
+.group_third {
+    border: 1px solid #ff000045;
+    margin-left: 23px;
+}
+
+.group_third.gp_brand {
+    border: none;
+    margin-top: -25px;
+}
+
+.group_second ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.group_second ul li {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.group_second ul li:hover {
+    color: #ff6839;
+    cursor: pointer;
+}
+
+.title_gp1 span {font-size: 22px;margin-right: 10px;}
+
+.group_one {
+    margin: auto;
+    width: 484px;
+    color: white;
+}
+
+.group_tt {
+    position: absolute;
+    top: 59px;
+    left: 41px;
+    width: 247px;
+    font-size: 13px;
+}
+
+
+a.btn.btn-primary.mr-2 {
+    height: 22px!important;
+    width: 65px!important;
+    font-size: 11px;
+    margin-top: -1px;
+}
+
+.card-body {margin-top: -29px;margin-right: -20px;margin-left: -18px;}
+
+p.card-text.edit-cart {
+    margin: 0;
+    padding: 0;
+}
+
+.group_card {
+    position: absolute;
+    top: 37px;
+    left: 30px;
+}
+
+.product_sub img {
+    width: 100%;
+    margin-top: 11px;
+}
+
+.product_sub {
+    width: 100%;
+    position: relative;
+}
+
+.line hr {
+    height: 1px!important;
+    background: #ff8c8c;
+}
+
+span.title_sm {
+    margin-left: 9px;
+}
+
+span.title_md {
+    position: absolute;
+    top: -13px;
+    left: 216px;
+    display: inline-block;
+    padding: 0px 8px;
+    background: white;
+    color: #bfbebe;
+}
+
+span.title_pr {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    background: #ff8c8c;
+    border-radius: 14px;
+    position: absolute;
+    top: -17px;
+    left: 48px;
+    width: 144px;
+    height: 28px;
+    text-align: center;
+}
+
+.line {
+    width: 100%;
+    position: relative;
+}
+
+.product {
+    width: 65%;
+    margin: auto;
+}
+
+.content_first .group .group_one {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding : 20px 0px ;
+    border-radius: 14px;
+}
+
+.content_first .group {
+    width: 65%;
+    margin: auto;
+    border: 2px solid #ff8c8c;
+    border-radius: 14px;
+}
+
+div#carouselId {
+    height: 322px;
+}
+
+img.img-fluid {
+    width: 100%;
+}
+
+img.image_slide{
+    height: 322px;
+}
+
+.title {
+    position: absolute;
+    z-index: 1;
+    top: 11px;
+    left: 77px;
+}
+
+.title.title_link {
+    text-transform: uppercase;
+    color: white;
+}
+
+span.title.title_gp1 {
+    display: flex;
+    left: 413px;
+}
+
+
+a.dropdown-item {
+    font-size: 13px;
+    line-height: 0;
+    padding-bottom: 0px;
+}
+
+a.dropdown-item:hover {
+    color: red;
+    background-color: #58afb0;
+}
+
+a.dropdown-item hr {
+    width: 150px;
+}
+
+ul.dropdown-menu.show {
+    width: 775px;
+    height: 280px;
+    font-size: 16px;
+    top: 5px!important;
+    border-radius: 20px;
+    background: #319c9ecf;
+}
+
+button#dropdownMenuButton {
+    width: 160px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 14px;
+    color: white;
+    text-transform: uppercase;
+}
+
+img.kid_store {
+    margin: 75px 0px 12px 75px;
+}
+
+section.header {
+    background-image: url("../imgs/header/header.png");
+    height: 250px;
+    background-size: cover;
+}
+
+input.form-control.me-2 {
+    width: 270px;
+}
+
+a.navbar-brand {
+    font-size: 16px;
+    color: white!important;
+}
+
+.signin,.signup {
+    float: right;
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.signin:hover, .signup:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.register {
+    width: 100%;
+    text-align: end;
+    padding-top: 7px;
+    height: 28px;
+    font-size: 14px;
+};
+
